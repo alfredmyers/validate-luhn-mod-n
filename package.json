@@ -1,0 +1,25 @@
+{
+  "name": "validate-luhn-mod-n",
+  "version": "1.0.0",
+  "description": "Validates Luhn Mod N check values",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredmyers/validate-luhn-mod-n.git"
+  },
+  "keywords": [
+    "Luhn"
+  ],
+  "author": "alfredmyers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfredmyers/validate-luhn-mod-n/issues"
+  },
+  "homepage": "https://github.com/alfredmyers/validate-luhn-mod-n#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
