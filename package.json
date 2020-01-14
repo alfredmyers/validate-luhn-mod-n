@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/alfredmyers/validate-luhn-mod-n#readme",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.9.0"
   }
 }
