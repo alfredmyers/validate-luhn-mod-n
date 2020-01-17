@@ -1,9 +1,12 @@
 {
   "name": "validate-luhn-mod-n",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Validates Luhn Mod N check values",
   "main": "index.js",
   "scripts": {
+    "postpublish": "git push origin --all; git push origin --tags",
+    "postversion": "npm publish",
+    "preversion": "npm test",
     "test": "jest --coverage"
   },
   "repository": {
@@ -13,7 +16,7 @@
   "keywords": [
     "Luhn"
   ],
-  "author": "alfredmyers",
+  "author": "Alfred Myers <code@alfredmyers.com> (https://alfredmyers.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alfredmyers/validate-luhn-mod-n/issues"
