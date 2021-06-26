@@ -1,6 +1,6 @@
 {
   "name": "validate-luhn-mod-n",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Validates Luhn Mod N check values",
   "main": "index.js",
   "scripts": {
